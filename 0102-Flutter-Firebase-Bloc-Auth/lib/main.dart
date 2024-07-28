@@ -27,12 +27,12 @@ class MyApp extends StatelessWidget {
       //   title: 'flutter_firebase_modal_1',
 
       // ),
-      
+
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const LoginScreen(title: 'Mmodal_1'),
+      home: const LoginScreen(title: '0102'),
       // home: const Wrapper(
       //   title: 'flutter_firebase_modal_1',
 

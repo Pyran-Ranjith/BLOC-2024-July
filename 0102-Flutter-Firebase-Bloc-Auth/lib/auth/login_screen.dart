@@ -35,10 +35,9 @@ class _LoginScreenState extends State<LoginScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Center(child: const Text("Login Screen")),
+        title: Center(child: const Text("0102: Login Screen")),
         // title: Text(widget.title),
       ),
-      
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 25),
         child: Column(
@@ -96,7 +95,8 @@ class _LoginScreenState extends State<LoginScreen> {
     if (user != null) {
       // log("User Logged In");
       log(_email.text + " Logged In");
-      showSnackBar(context, _email.text + "Logged In"); // Displaying the error message
+      showSnackBar(
+          context, _email.text + "Logged In"); // Displaying the error message
       goToHome(context);
     }
   }
