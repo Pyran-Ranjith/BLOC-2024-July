@@ -22,5 +22,6 @@
         "titleBar.activeForeground": "#e7e7e7",
         "titleBar.inactiveBackground": "#00000099",
         "titleBar.inactiveForeground": "#e7e7e799"
-    }
+    },
+    "cmake.sourceDirectory": "E:/Users/Public/Pyran-Ranjith-Git_Hub-Cone-Check-27-jul/BLOC-2024-July/0301-Flutter-Firebase-Bloc-Akshit-Madan-Apps/flutter_bloc_types/linux"
 }
